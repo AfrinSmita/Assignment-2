@@ -230,6 +230,7 @@ html{
 .common-clr{
     color: rgba(255, 255, 255, 0.5);
     font-size: 14px;
+    padding-top: 0px;
 
 }
 .change-heading{
@@ -251,7 +252,6 @@ html{
     max-width: 66.25rem;
     gap: 165px;
     margin: 0 auto;
-    border: 1px solid orange;
     padding-left: 56px;
     padding-right: 32px;
     padding-top: 41px;
@@ -266,18 +266,12 @@ html{
 }
 
 .running-img{
-    /* background-image: url('../images/run.jpg'); */
     width: 366px;
     height: 312px;
     object-fit: cover;
     object-position:right 50%;
-
-    
-    /* width: 100%; */
     border-radius: 18px;
-    border: 1px solid indigo;
-    /* position: absolute; */
-    /* transform: translate(-50%,-50%); */
+    
     
    
 }
@@ -288,6 +282,29 @@ html{
     font-weight: 900;
 }
 
+/* creative section */
+.buy-section-div{
+    background-image: url(../images/equipment\ 2.jpg);
+    /* background-image: url(../images/equipment\ 3.webp); */
+    background-size: cover;
+    background-position: center;
+    width: 72.25rem;
+    height: 400px;
+    margin: 0 auto;
+    border-radius: 18px;
+    padding-top: 100px;
+}
+.buy-contens{
+    width: 443px;
+    padding-left: 50px;
+    
+}
+.buy-heading{
+    color: #FFFFFF;
+    font-weight: 900;
+    font-size: 48px;
+    
+}
 
 .footer{
     
@@ -437,4 +454,21 @@ display: none;
 .extra{
     width: 267px;
 }
+
+.buy-section-div{
+    width: 353px;
+}
+
+.buy-contens{
+    width: 267px;
+}
+.buy-now{
+   margin-top: 10px;
+}
+
+
+
+
+
+
  }
