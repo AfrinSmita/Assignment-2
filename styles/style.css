@@ -225,6 +225,7 @@ html{
   font-size: 18px;
   font-weight: 600;
   color: #FFFFFF;
+  margin-bottom: 0;
 }
 
 .common-clr{
@@ -237,6 +238,7 @@ html{
     font-weight: 900;
     font-size: 48px;
     color: #FFFFFF;
+    margin-bottom: 0;
     
 }
 
@@ -280,6 +282,7 @@ html{
     color: #FFFFFF;
     font-size: 48px;
     font-weight: 900;
+    margin-bottom: 0;
 }
 
 /* creative section */
@@ -303,8 +306,112 @@ html{
     color: #FFFFFF;
     font-weight: 900;
     font-size: 48px;
+    margin-bottom: 0;
     
 }
+
+/* bmi */
+
+
+.bmi-div{
+    margin: 88px 384px;
+    padding-bottom: 1.25rem;
+}
+
+.bmi-heading{
+    color: #FFFFFF;
+    font-weight: 900;
+    font-size: 3rem;
+    margin-bottom: .875rem;
+}
+.bmi-calculations{
+    gap: 10.9rem;
+    background-color: rgba(34, 34, 34, 1);
+    justify-content: center;
+}
+
+.table-head{
+    color: #FFFFFF;
+    font-size: 1rem;
+    font-weight: 900;
+   
+}
+
+th{
+    color: #FFFFFF;
+    font-size: 1rem;
+    font-weight: 400;
+}
+table,th,td{
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-collapse: collapse;
+    text-align: left;
+    padding-left: 10px;
+}
+table{
+    width: 310px;
+    height: 216px;
+   
+}
+
+.inputs{
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 16px;
+    background-color: rgba(255, 255, 255, 0.1);
+    width:282px ;
+    height: 48px ;
+    padding-left:20px ;
+    border-radius: 8px;
+    border: none;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+.input-selector{
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 16px;
+    background-color: rgba(255, 255, 255, 0.1);
+    width:305px ;
+    height: 48px ;
+    padding-left:20px ;
+    border-radius: 8px;
+    border: none;
+}
+
+.activity-selector{
+    width: 620px;
+    height: 48px;
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 16px;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding-left:20px ;
+    border-radius: 8px;
+    border: none;
+}
+
+.calculate-btn{
+    margin-bottom: 3.25rem;
+    margin-top: 2.12rem;
+
+}
+
+.bmi-form{
+    width: 40rem ;
+}
+
+.form-heading{
+    color: #FFFFFF;
+    font-size: 1rem;
+    font-weight: 900;
+    margin-bottom:.875rem ;
+}
+
+.form-div{
+    display: grid;
+    /* grid-template-columns: repeat(2,1fr); */
+}
+
+
 
 .footer{
     
@@ -467,8 +574,73 @@ display: none;
 }
 
 
+/* BMI */
+
+.bmi-calculations{
+    flex-direction: column;
+    gap: 2.6rem;
+   
+   
+}
+.bmi-div{
+    margin-left: 1.5rem;
+    width:25rem ;
+    margin-bottom: 2rem;
+    
+}
+.bmi-form{
+    width:25.125rem ;
+    /* width: 100%; */
+    margin-left: 1.5rem;
+}
+
+.form-div{
+    margin-top: 2.21rem ;
+  
+}
+
+.inputs{
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 16px;
+    background-color: rgba(255, 255, 255, 0.1);
+    width:11.625rem;
+    height: 3rem ;
+    padding-left:20px ;
+    border-radius: 8px;
+    border: none;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+.input-selector{
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 16px;
+    background-color: rgba(255, 255, 255, 0.1);
+    width:11.6rem ;
+    height: 48px ;
+    padding-left:20px ;
+    border-radius: 8px;
+    border: none;
+}
+
+.activity-selector{
+    width: 24.06rem;
+    height: 3rem;
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 16px;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding-left:20px ;
+    border-radius: 8px;
+    border: none;
+}
 
 
-
+.bmi-table{
+    margin-top: 2.2rem;
+    margin-left: 1.25rem;
+}
+.table-head{
+    margin-bottom:1.75rem ;
+}
 
  }
